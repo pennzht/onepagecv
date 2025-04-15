@@ -1,8 +1,6 @@
 `onepagecv`
 ===
 
-![Preview](https://raw.githubusercontent.com/pennzht/onepagecv/refs/heads/main/Firstname%20Lastname%20-%20CV.png)
-
 This is a template which I used to generate my CV (undisclosed yet). It is pure HTML and CSS with no JavaScript at all. Two wonderful fonts, __Linux Libertine__ and __Linux Biolinum__, are also included as default fonts.
 
 Copyright
@@ -20,4 +18,6 @@ How to use
 4. From the browser, print the page to PDF and distribute it.
 
 The file `Firstname Lastname - CV.pdf` shows how the CV should look.
+
+![Preview](https://raw.githubusercontent.com/pennzht/onepagecv/refs/heads/main/Firstname%20Lastname%20-%20CV.png)
 
