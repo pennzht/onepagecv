@@ -1,7 +1,7 @@
 `onepagecv`
 ===
 
-![Preview](./Firstname Lastname - CV.png)
+![Preview](https://raw.githubusercontent.com/pennzht/onepagecv/refs/heads/main/Firstname%20Lastname%20-%20CV.png)
 
 This is a template which I used to generate my CV (undisclosed yet). It is pure HTML and CSS with no JavaScript at all. Two wonderful fonts, __Linux Libertine__ and __Linux Biolinum__, are also included as default fonts.
 
