@@ -17,3 +17,5 @@ How to use
 3. Open `cv.html` with a browser for preview.
 4. From the browser, print the page to PDF and distribute it.
 
+The file `Firstname Lastname - CV.pdf` shows how the CV should look.
+
