@@ -1,0 +1,173 @@
+/**
+    This is the CSS for the CV template. You can update it according to your taste.
+**/
+
+@font-face {
+    font-family: "LB";
+    src: url("./LinBiolinum_Rah.ttf");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "LB";
+    src: url("./LinBiolinum_RBah.ttf");
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: "LB";
+    src: url("./LinBiolinum_RIah.ttf");
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "LL";
+    src: url("./LinLibertine_R.otf");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "LL";
+    src: url("./LinLibertine_R.otf");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "LL";
+    src: url("./LinLibertine_RB.otf");
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: "LL";
+    src: url("./LinLibertine_RI.otf");
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "LL";
+    src: url("./LinLibertine_RBI.otf");
+    font-weight: 900;
+    font-style: italic;
+}
+
+:root {
+    /* Colors */
+    --light-paper: white;
+    --light-text: black;
+    --light-magic: #00a6ff;
+    --light-box: #eeeeee;
+    --dark-paper: #252525;
+    --dark-text: white;
+    --dark-magic: #006edb;
+    --dark-box: #666666;
+    --gray: #808080;
+    --box: var(--light-box);
+
+    --sea: #008ab7;
+
+    /* Fonts */
+    --prose: "LL", "Inter", "Helvetica", "Inter UI", "San Francisco", "SF Pro", "SF UI", "Avenir Next", "Avenir", "Arial", sans-serif;
+    --heading: "LB", "Optima", "Palatino", "Georgia", "Baskerville", serif;
+}
+
+body {
+    margin: 0;
+    float: none;
+
+    background-color: var(--light-paper);
+    color: var(--light-text);
+    font-family: var(--prose);
+    font-size: 14px;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 24px 40px 24px;
+}
+
+h1 {
+    font-family: var(--prose);
+    font-weight: 500;
+    font-size: 28px;
+    text-align: center;
+}
+
+h2 {
+    font-family: var(--heading);
+    font-weight: 900;
+    color: var(--sea);
+}
+
+a {
+    text-decoration: none;
+    color: var(--sea);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+[tt] {
+    font-family: "IBM Plex Mono", monospace;
+}
+
+[sc] {
+    font-variant-caps: small-caps;
+}
+
+i-block {
+    display: block;
+    margin-bottom: 0.5em;
+    white-space: normal;
+}
+
+i-l {
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+i-r {
+    display: inline-block;
+    width: 65%;
+    margin-left: 5%;
+    vertical-align: top;
+}
+
+i-l[nextcol] {
+    margin-left: 5%;
+}
+
+i-proj {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 5px;
+    font-family: "LB";
+}
+
+i-dept {
+    display: block;
+    margin-bottom: 5px;
+}
+
+i-a {
+    display: block;
+}
+
+i-floatr {
+    display: inline-block;
+    float: right;
+}
+
+i-name, [nobreak] {
+    display: inline-block;
+}
+
+i-suffix {
+    display: inline;
+    font-size: 24px;
+}

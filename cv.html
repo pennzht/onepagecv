@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Firstname Lastname - CV</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <main id="main">
+
+      <!-- This is a CV template. To use it, replace ALL information with your own CV content.
+        All names are fictional and are used for demonstration purposes. -->
+
+      <!-- Name -->
+      <h1><i-name>Firstname <span sc>Lastname</span><i-suffix>, Ph.D.</i-suffix></i-name></h1>
+
+      <!-- Each <i-block> is a horizontal block spanning the whole width of the document. 
+        <i-l> is the header on the left; <i-r> contains the contents on the right.
+        Do not leave spaces between the closing tag </i-l> and the opening tag <i-r>. -->
+      <i-block>
+        <i-l>Email</i-l><i-r>
+          <!-- Each i-a is an item.
+            Use <a> to insert a link.
+            Use the attribute `tt` to make an element use a fixed-width font. -->
+          <i-a><a tt href="mailto:one@example.org">one@example.org</a> (work)</i-a>
+          <i-a><a tt href="mailto:two@example.com">two@example.com</a> (personal)</i-a>
+          <!-- Add as many <i-a>'s as you want. -->
+        </i-r>
+      </i-block>
+
+      <i-block>
+        <i-l>Telephone</i-l><i-r>
+          <a href="tel:+15555555555">+1 555 555 5555</a>
+        </i-r>
+      </i-block>
+
+      <i-block>
+        <i-l>Website</i-l><i-r>
+          <a tt href="https://example.com/name/">https://example.com/name/</a>
+        </i-r>
+      </i-block>
+
+      <!-- Add as many <i-block>s as you want. -->
+
+      <!-- Sections begin with <h2> tags. -->
+      <h2>Education</h2>
+
+      <i-block>
+        <!-- Use the `sc` attribute to make a tag use small caps. Useful for dates and family names. -->
+        <i-l sc>Jan 1234 – Dec 7890</i-l><i-r>
+          <!-- Use <i-floatr> to add an element that floats to the right edge of the page. -->
+          <i-floatr>GPA: 3.99</i-floatr>
+          <!-- <i-proj> shows the project name, which is typeset in a sans-serif font. -->
+          <i-proj>Ph.D. in Abcdefghijkl</i-proj>
+          <!-- <i-dept> shows the organization, which maintains some space with its following elements. -->
+          <i-dept>School of Abcdef, University of Ghijklmnop, Qrstuv</i-dept>
+          <!-- Use <i-name> to mark a text as a personal name, so it will not be broken into two lines. -->
+          <i-a>Advisor: <i-name>Prof. Dr. Someone <span sc>Somebody</span></i-name></i-a>
+          <!-- Standard HTML tags such as <em> and <strong> can also be used. -->
+          <i-a>Thesis: This is an <em>Avant-Garde</em> Thesis Title</i-a>
+        </i-r>
+      </i-block>
+
+      <i-block>
+        <i-l sc>Jan 1234 – Dec 7890</i-l><i-r>
+          <i-floatr>GPA: 3.99</i-floatr>
+          <i-proj>B.Sc. in Abcdefghijkl</i-proj>
+          <i-dept>School of Abcdef, University of Ghijklmnop, Qrstuv</i-dept>
+        </i-r>
+      </i-block>
+
+      <h2>Employment</h2>
+
+      <i-block>
+        <!-- Use an en dash (–) for ranges of time. You can also use &ndash; for an en dash. -->
+        <i-l sc>Jan 1234 – Now</i-l><i-r>
+          <i-proj>Job Title 1</i-proj>
+          <!-- Add a `tt` attribute to an element to make it use a fixed-width font. -->
+          <i-dept>Abcdef Inc., City of Ghijklmnop, <span tt>40320</span> QR</i-dept>
+          <i-a>Here is a paragraph about the job responsibilities and job description of this section of employment.</i-a>
+          <i-a>Here is another paragraph, which can contain some highlights.</i-a>
+        </i-r>
+      </i-block>
+
+      <i-block>
+        <i-l sc>Jan 1234 – Dec 7890</i-l><i-r>
+          <i-proj>Job Title 2</i-proj>
+          <i-dept>Abcdef Inc., City of Ghijklmnop, <span tt>40320</span> QR</i-dept>
+          <i-a>Job details.</i-a>
+        </i-r>
+      </i-block>
+
+      <h2>Areas of interest</h2>
+
+      <i-block>
+        <!-- Use this exact format for a three-column layout. -->
+        <i-l><!-- First column -->
+          <i-a>Area of interest 1</i-a>
+          <i-a>Area of interest 2</i-a>
+        </i-l><i-l nextcol><!-- Second column -->
+          <i-a>Area of interest 3</i-a>
+          <i-a>Area of interest 4</i-a>
+        </i-l><i-l nextcol><!-- Third column. Each column can contain a different number of items. -->
+          <i-a>Area of interest 5</i-a>
+          <i-a>Area of interest 6</i-a>
+          <i-a>Area of interest 7</i-a>
+          <i-a>Area of interest 8</i-a>
+        </i-l>
+      </i-block>
+
+      <h2>Projects</h2>
+      <i-block>
+        <i-l sc>Summer 3456 – Now</i-l><i-r>
+          <!-- Standard HTML tags such as <sup> can be used. If your browser supports MathML, you can use it for formulas. -->
+          <i-proj><a href="https://example.com/asquared/">A<sup>2</sup> is a <strong>title</strong> with formatting and link.</a></i-proj>
+          <i-a><a tt href="https://example.com/asquared/">https://example.com/asquared/</a></i-a>
+          <i-a>This is a description of the Project A<sup>2</sup>. It can be as long as you want, so long as it fits neatly on your CV/resume.</i-a>
+        </i-r>
+      </i-block>
+
+      <h2>Skills</h2>
+
+      <i-block>
+        <!-- Use a middle dot (·) for separating items. You can also use &middot; for the middle dot. -->
+        <i-l>Skillset 1</i-l><i-r>
+          Skill 1a · Skill 1b · Skill 1c
+        </i-r>
+      </i-block>
+
+      <i-block>
+        <i-l>Skillset 2</i-l><i-r>
+          <!-- The `nobreak` attribute prevents line breaks, equivalent to an <i-name> tag. -->
+          Skill 2a · Skill 2b · <span nobreak>Skill 2c has a long name but will stay on one line</span> · <span nobreak>Skill 2d is also very long but it will also stay on one line</span>
+        </i-r>
+      </i-block>
+
+      <!-- Add as many sections as you want. -->
+
+    </main>
+  </body>
+</html>
